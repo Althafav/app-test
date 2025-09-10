@@ -1,3 +1,4 @@
+import AnimatedCardsSection from "@/components/AnimatedCardsSection";
 import AnimatedSection from "@/components/AnimatedSection";
 import FooterComponent from "@/components/layout/FooterComponent";
 import Image from "next/image";
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
       <div className="h-screen"></div>
       <AnimatedSection />
+      <AnimatedCardsSection/>
       <div className="h-screen relative" id="section-3">
         <div className="box w-[200px] h-[200px] bg-amber-300 sticky top-0"></div>
       </div>
