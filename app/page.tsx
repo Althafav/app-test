@@ -15,6 +15,8 @@ export default function Home() {
       <div className="h-screen"></div>
       <AnimatedSection />
       <AnimatedCardsSection/>
+
+      
       <div className="h-screen relative" id="section-3">
         <div className="box w-[200px] h-[200px] bg-amber-300 sticky top-0"></div>
       </div>
