@@ -11,7 +11,6 @@ export default function AnimatedCardsSection() {
     if (!sectionRef.current) return;
 
     gsap.from(sectionRef.current.querySelectorAll(".box"), {
-      opacity: 0,
       y: 200,
       duration: 2,
       stagger: 0.2,
@@ -30,7 +29,7 @@ export default function AnimatedCardsSection() {
       ref={sectionRef}
       className="h-screen flex items-center justify-center "
     >
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
         <div className=" box h-40 w-[200px] bg-red-500  ">Card 1</div>
 
         <div className=" box h-40 w-[200px] bg-red-500  ">Card 2</div>
